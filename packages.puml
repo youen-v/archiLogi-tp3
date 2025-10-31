@@ -8,7 +8,7 @@ package "main-application" as MAIN {
   package "com.jad.app" as app
 }
 
-package "sensor-generation" as SENSOR {
+package "sensor-data-collection" as SENSOR {
   package "com.jad.sensor" as sensor
 }
 
@@ -16,7 +16,7 @@ package "data-management" as DATA {
   package "com.jad.data" as data
 }
 
-package "report-generation" as REPORT {
+package "report-data-collection" as REPORT {
   package "com.jad.report" as report
   package "com.jad.report.spi" as report_spi
 }
