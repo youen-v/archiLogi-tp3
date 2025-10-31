@@ -74,3 +74,7 @@ Pour visualiser les résultats des tests, cliquez sur l'onglet `Actions` de votr
 Cliquez ensuite `Autograding` pour voir le détail des tests.
 
 Pour le moment, les dépendances entre les modules sont mauvaises. Les tests échouent donc.
+
+# Génération dependecy tree
+- install mvn (with your OS method)
+- mvn -q -DskipTests dependency:tree -DoutputFile=dependency-tree.txt (for create dependency-tree.txt)
